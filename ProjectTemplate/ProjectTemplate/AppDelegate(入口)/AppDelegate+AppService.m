@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate+AppService.h"
+#import <UIView+Toast.h>
 
 @implementation AppDelegate (AppService)
 
@@ -70,6 +71,12 @@
     return YES;
 }
 
+#pragma mark ————— Toast显示 —————
+- (void)showToast:(NSString *)text {
+    
+    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
+    [self.window makeToast:text];
+}
 
 #pragma mark ————— 网络状态变化 —————
 - (void)netWorkStateChange:(NSNotification *)notification {

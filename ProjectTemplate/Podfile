@@ -18,6 +18,6 @@ pod 'MBProgressHUD'
 pod 'DBCorner'
 pod 'SDCycleScrollView'
 pod 'Masonry'
-#pod 'YYKit'
+pod 'Toast'
 
 end

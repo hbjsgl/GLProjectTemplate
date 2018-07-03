@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F637A31A04F40052835E5BC1BE7DF005'
-               BlueprintName = 'PPNetworkHelper'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPPNetworkHelper.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "68EED41A5A166F897E21C637F2CE1453"
+               BlueprintName = "PPNetworkHelper"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libPPNetworkHelper.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

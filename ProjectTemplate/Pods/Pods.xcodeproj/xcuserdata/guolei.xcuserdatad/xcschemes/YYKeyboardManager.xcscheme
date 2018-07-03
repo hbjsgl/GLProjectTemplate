@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '78BC4233428482CF264FB20EFEB61225'
-               BlueprintName = 'YYKeyboardManager'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libYYKeyboardManager.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2EEB7B56D705CB3A1FBB50AEC0A16A40"
+               BlueprintName = "YYKeyboardManager"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libYYKeyboardManager.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -36,6 +36,11 @@
 - (void)monitorNetworkStatus;
 
 /**
+ 显示Toast
+ */
+- (void)showToast:(NSString *)text;
+
+/**
  单例
  
  @return 单例对象

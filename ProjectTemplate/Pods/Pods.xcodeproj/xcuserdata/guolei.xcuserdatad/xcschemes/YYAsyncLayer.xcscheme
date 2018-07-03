@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C9F2D7F14DAA1872E4CF01619A36346D'
-               BlueprintName = 'YYAsyncLayer'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libYYAsyncLayer.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FF1B3726912EE8D980E5FB0CCC974A74"
+               BlueprintName = "YYAsyncLayer"
+               ReferencedContainer = "container:Pods.xcodeproj"
+               BuildableName = "libYYAsyncLayer.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
