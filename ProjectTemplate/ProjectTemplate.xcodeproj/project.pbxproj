@@ -15,6 +15,13 @@
 		6943E9291FE21B61007D4825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E9281FE21B61007D4825 /* main.m */; };
 		6943E9331FE21B61007D4825 /* ProjectTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E9321FE21B61007D4825 /* ProjectTemplateTests.m */; };
 		6943E93E1FE21B61007D4825 /* ProjectTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E93D1FE21B61007D4825 /* ProjectTemplateUITests.m */; };
+		697065032117F31200913C85 /* SandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 697065022117F31200913C85 /* SandBoxHelper.m */; };
+		69706507211834F900913C85 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706506211834F900913C85 /* NSObject+Swizzling.m */; };
+		6970650A211836D000913C85 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706509211836D000913C85 /* NSObject+ImpChangeTool.m */; };
+		6970650D211839BA00913C85 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6970650C211839BA00913C85 /* NSArray+Safe.m */; };
+		69706510211846C000913C85 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6970650F211846BF00913C85 /* NSMutableArray+Safe.m */; };
+		697065132118506200913C85 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 697065122118506200913C85 /* NSDictionary+Safe.m */; };
+		69706516211853D400913C85 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706515211853D400913C85 /* NSMutableDictionary+Safe.m */; };
 		69C2624F1FE8F58F0077A2EE /* BaseTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C2624E1FE8F58F0077A2EE /* BaseTopLeftLabel.m */; };
 		69C262581FE8F61F0077A2EE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C262571FE8F61F0077A2EE /* BaseViewController.m */; };
 		69C2625D1FE901F90077A2EE /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C2625C1FE901F90077A2EE /* BaseNavigationViewController.m */; };
@@ -95,6 +102,20 @@
 		6943E9391FE21B61007D4825 /* ProjectTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6943E93D1FE21B61007D4825 /* ProjectTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTemplateUITests.m; sourceTree = "<group>"; };
 		6943E93F1FE21B61007D4825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		697065012117F31200913C85 /* SandBoxHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxHelper.h; sourceTree = "<group>"; };
+		697065022117F31200913C85 /* SandBoxHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxHelper.m; sourceTree = "<group>"; };
+		69706505211834F900913C85 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		69706506211834F900913C85 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		69706508211836D000913C85 /* NSObject+ImpChangeTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ImpChangeTool.h"; sourceTree = "<group>"; };
+		69706509211836D000913C85 /* NSObject+ImpChangeTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ImpChangeTool.m"; sourceTree = "<group>"; };
+		6970650B211839BA00913C85 /* NSArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safe.h"; sourceTree = "<group>"; };
+		6970650C211839BA00913C85 /* NSArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		6970650E211846BF00913C85 /* NSMutableArray+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safe.h"; sourceTree = "<group>"; };
+		6970650F211846BF00913C85 /* NSMutableArray+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safe.m"; sourceTree = "<group>"; };
+		697065112118506100913C85 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		697065122118506200913C85 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		69706514211853D400913C85 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
+		69706515211853D400913C85 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
 		69C262451FE8F4170077A2EE /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		69C262461FE8F4170077A2EE /* ThirdMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
 		69C262471FE8F4170077A2EE /* FontAndColorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
@@ -283,6 +304,48 @@
 			path = ProjectTemplateUITests;
 			sourceTree = "<group>";
 		};
+		697064FE2117EF0A00913C85 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		697064FF2117EF1700913C85 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		697065002117F2F800913C85 /* SandBoxHelper */ = {
+			isa = PBXGroup;
+			children = (
+				697065012117F31200913C85 /* SandBoxHelper.h */,
+				697065022117F31200913C85 /* SandBoxHelper.m */,
+			);
+			path = SandBoxHelper;
+			sourceTree = "<group>";
+		};
+		697065042118341200913C85 /* SafeObject */ = {
+			isa = PBXGroup;
+			children = (
+				69706505211834F900913C85 /* NSObject+Swizzling.h */,
+				69706506211834F900913C85 /* NSObject+Swizzling.m */,
+				69706508211836D000913C85 /* NSObject+ImpChangeTool.h */,
+				69706509211836D000913C85 /* NSObject+ImpChangeTool.m */,
+				6970650B211839BA00913C85 /* NSArray+Safe.h */,
+				6970650C211839BA00913C85 /* NSArray+Safe.m */,
+				6970650E211846BF00913C85 /* NSMutableArray+Safe.h */,
+				6970650F211846BF00913C85 /* NSMutableArray+Safe.m */,
+				697065112118506100913C85 /* NSDictionary+Safe.h */,
+				697065122118506200913C85 /* NSDictionary+Safe.m */,
+				69706514211853D400913C85 /* NSMutableDictionary+Safe.h */,
+				69706515211853D400913C85 /* NSMutableDictionary+Safe.m */,
+			);
+			path = SafeObject;
+			sourceTree = "<group>";
+		};
 		69C262411FE8F2990077A2EE /* Supporting Files(支持文件) */ = {
 			isa = PBXGroup;
 			children = (
@@ -448,6 +511,10 @@
 		69C2626F1FE908A80077A2EE /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
+				697065042118341200913C85 /* SafeObject */,
+				697065002117F2F800913C85 /* SandBoxHelper */,
+				697064FF2117EF1700913C85 /* NSDictionary */,
+				697064FE2117EF0A00913C85 /* NSArray */,
 				69C262911FE90CEE0077A2EE /* NSData */,
 				69C262711FE908CB0077A2EE /* NSString */,
 			);
@@ -457,7 +524,6 @@
 		69C262701FE908B90077A2EE /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				69E9EDE020AE7919004CC4E5 /* UIWebView */,
 				69E9EDD320AE7803004CC4E5 /* UINavigationController */,
 				69E9EDC820AE7648004CC4E5 /* UIImage */,
 				69E9EDC420AE7458004CC4E5 /* UIDevice */,
@@ -664,13 +730,6 @@
 			path = UINavigationController;
 			sourceTree = "<group>";
 		};
-		69E9EDE020AE7919004CC4E5 /* UIWebView */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = UIWebView;
-			sourceTree = "<group>";
-		};
 		69EA5CF9205A7794004CFB64 /* MBProgressHUD+XY */ = {
 			isa = PBXGroup;
 			children = (
@@ -874,6 +933,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6970650A211836D000913C85 /* NSObject+ImpChangeTool.m in Sources */,
 				69EA5D02205A7806004CFB64 /* UITabBar+CustomBadge.m in Sources */,
 				69E9ED9F20AE6FC3004CC4E5 /* UIScrollView+Direction.m in Sources */,
 				6943E91E1FE21B61007D4825 /* ViewController.m in Sources */,
@@ -881,23 +941,29 @@
 				69E9EDCE20AE76AD004CC4E5 /* UIImage+GLSuperCompress.m in Sources */,
 				69C2625D1FE901F90077A2EE /* BaseNavigationViewController.m in Sources */,
 				69C262581FE8F61F0077A2EE /* BaseViewController.m in Sources */,
+				697065032117F31200913C85 /* SandBoxHelper.m in Sources */,
 				69C2627F1FE90B210077A2EE /* UIButton+AddBlock.m in Sources */,
 				69C262871FE90C5C0077A2EE /* UICollectionView+IndexPath.m in Sources */,
+				697065132118506200913C85 /* NSDictionary+Safe.m in Sources */,
+				69706516211853D400913C85 /* NSMutableDictionary+Safe.m in Sources */,
 				69C2629B1FE90E1F0077A2EE /* UIButton+EnlargeEdge.m in Sources */,
 				69C262941FE90D000077A2EE /* NSData+Base64.m in Sources */,
 				69E9EDC320AE7419004CC4E5 /* UIColor+GLWeb.m in Sources */,
 				69E9EDAC20AE729F004CC4E5 /* UITextField+JKBlocks.m in Sources */,
 				69E9ED9420AE6F1C004CC4E5 /* UIButton+CancelHighlight.m in Sources */,
 				69E9EDDF20AE78C1004CC4E5 /* UIView+JKBlockGesture.m in Sources */,
+				69706507211834F900913C85 /* NSObject+Swizzling.m in Sources */,
 				69C262781FE909C60077A2EE /* NSString+MD5.m in Sources */,
 				69E9EDDC20AE78AE004CC4E5 /* UIView+JKNib.m in Sources */,
 				69E9EDD920AE789B004CC4E5 /* UIView+JKAnimation.m in Sources */,
 				69C2628D1FE90C950077A2EE /* NSString+Regular.m in Sources */,
+				6970650D211839BA00913C85 /* NSArray+Safe.m in Sources */,
 				69C262901FE90CD90077A2EE /* NSString+Beck.m in Sources */,
 				69C262A31FE910C80077A2EE /* UIView+Extension.m in Sources */,
 				69EA5CFC205A7794004CFB64 /* MBProgressHUD+XY.m in Sources */,
 				6943E9291FE21B61007D4825 /* main.m in Sources */,
 				69C2626E1FE906650077A2EE /* AppDelegate+AppService.m in Sources */,
+				69706510211846C000913C85 /* NSMutableArray+Safe.m in Sources */,
 				69E9EDC020AE73F6004CC4E5 /* UIColor+GLGradient.m in Sources */,
 				69E9EDA220AE70EF004CC4E5 /* UIButton+GLImagePosition.m in Sources */,
 				69C2629F1FE9103E0077A2EE /* MainTabBarController.m in Sources */,
