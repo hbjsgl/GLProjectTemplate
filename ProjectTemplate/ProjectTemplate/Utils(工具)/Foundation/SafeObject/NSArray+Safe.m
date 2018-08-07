@@ -15,10 +15,11 @@
 + (void)load {
 
 #if DEBUG
-    
+
+#else
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-       
+        
         //替换objectAtIndex
         NSString *tmpStr = @"objectAtIndex:";
         NSString *tmpFirstStr = @"safe_ZeroObjectAtIndex:";
@@ -44,7 +45,7 @@
         [NSObject exchangeInstanceMethodWithSelfClass:NSClassFromString(@"__NSArrayI")
                                      originalSelector:NSSelectorFromString(tmpSubScriptStr)
                                      swizzledSelector:NSSelectorFromString(tmpSecondSubscriptStr)];
-
+        
     });
 #endif
 }

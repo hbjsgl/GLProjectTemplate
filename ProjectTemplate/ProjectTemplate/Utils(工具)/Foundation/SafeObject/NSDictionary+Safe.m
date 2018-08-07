@@ -15,6 +15,8 @@
 + (void)load {
     
 #if DEBUG
+    
+#else
     [self SwizzlingMethod:@"initWithObjects:forKeys:count:"
         systemClassString:@"__NSPlaceholderDictionary"
        toSafeMethodString:@"initWithObjects_st:forKeys:count:"

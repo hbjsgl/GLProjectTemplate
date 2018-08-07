@@ -15,6 +15,8 @@
 + (void)load {
     
 #if DEBUG
+
+#else
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
        

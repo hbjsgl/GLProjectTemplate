@@ -22,6 +22,7 @@
 		69706510211846C000913C85 /* NSMutableArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6970650F211846BF00913C85 /* NSMutableArray+Safe.m */; };
 		697065132118506200913C85 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 697065122118506200913C85 /* NSDictionary+Safe.m */; };
 		69706516211853D400913C85 /* NSMutableDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706515211853D400913C85 /* NSMutableDictionary+Safe.m */; };
+		697065192119242700913C85 /* NSMutableString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 697065182119242700913C85 /* NSMutableString+Safe.m */; };
 		69C2624F1FE8F58F0077A2EE /* BaseTopLeftLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C2624E1FE8F58F0077A2EE /* BaseTopLeftLabel.m */; };
 		69C262581FE8F61F0077A2EE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C262571FE8F61F0077A2EE /* BaseViewController.m */; };
 		69C2625D1FE901F90077A2EE /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C2625C1FE901F90077A2EE /* BaseNavigationViewController.m */; };
@@ -116,6 +117,8 @@
 		697065122118506200913C85 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
 		69706514211853D400913C85 /* NSMutableDictionary+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safe.h"; sourceTree = "<group>"; };
 		69706515211853D400913C85 /* NSMutableDictionary+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safe.m"; sourceTree = "<group>"; };
+		697065172119242700913C85 /* NSMutableString+Safe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+Safe.h"; sourceTree = "<group>"; };
+		697065182119242700913C85 /* NSMutableString+Safe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+Safe.m"; sourceTree = "<group>"; };
 		69C262451FE8F4170077A2EE /* UtilsMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacros.h; sourceTree = "<group>"; };
 		69C262461FE8F4170077A2EE /* ThirdMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMacros.h; sourceTree = "<group>"; };
 		69C262471FE8F4170077A2EE /* FontAndColorMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontAndColorMacros.h; sourceTree = "<group>"; };
@@ -342,6 +345,8 @@
 				697065122118506200913C85 /* NSDictionary+Safe.m */,
 				69706514211853D400913C85 /* NSMutableDictionary+Safe.h */,
 				69706515211853D400913C85 /* NSMutableDictionary+Safe.m */,
+				697065172119242700913C85 /* NSMutableString+Safe.h */,
+				697065182119242700913C85 /* NSMutableString+Safe.m */,
 			);
 			path = SafeObject;
 			sourceTree = "<group>";
@@ -950,6 +955,7 @@
 				69C262941FE90D000077A2EE /* NSData+Base64.m in Sources */,
 				69E9EDC320AE7419004CC4E5 /* UIColor+GLWeb.m in Sources */,
 				69E9EDAC20AE729F004CC4E5 /* UITextField+JKBlocks.m in Sources */,
+				697065192119242700913C85 /* NSMutableString+Safe.m in Sources */,
 				69E9ED9420AE6F1C004CC4E5 /* UIButton+CancelHighlight.m in Sources */,
 				69E9EDDF20AE78C1004CC4E5 /* UIView+JKBlockGesture.m in Sources */,
 				69706507211834F900913C85 /* NSObject+Swizzling.m in Sources */,
