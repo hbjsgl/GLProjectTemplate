@@ -65,6 +65,7 @@
 		69EA5CFC205A7794004CFB64 /* MBProgressHUD+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA5CFB205A7794004CFB64 /* MBProgressHUD+XY.m */; };
 		69EA5D02205A7806004CFB64 /* UITabBar+CustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA5CFE205A7806004CFB64 /* UITabBar+CustomBadge.m */; };
 		69EA5D03205A7806004CFB64 /* GLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EA5D01205A7806004CFB64 /* GLTabBar.m */; };
+		69F8AD2C213D078B0067DD31 /* UIButton+Touch.m in Sources */ = {isa = PBXBuildFile; fileRef = 69F8AD2B213D078B0067DD31 /* UIButton+Touch.m */; };
 		D406E996985F44771F4852FB /* libPods-ProjectTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE287DE7A9D2EBC1CB186C6 /* libPods-ProjectTemplate.a */; };
 /* End PBXBuildFile section */
 
@@ -210,6 +211,8 @@
 		69EA5CFF205A7806004CFB64 /* GLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTabBar.h; sourceTree = "<group>"; };
 		69EA5D00205A7806004CFB64 /* UITabBar+CustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+CustomBadge.h"; sourceTree = "<group>"; };
 		69EA5D01205A7806004CFB64 /* GLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLTabBar.m; sourceTree = "<group>"; };
+		69F8AD2A213D078B0067DD31 /* UIButton+Touch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Touch.h"; sourceTree = "<group>"; };
+		69F8AD2B213D078B0067DD31 /* UIButton+Touch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Touch.m"; sourceTree = "<group>"; };
 		7AE287DE7A9D2EBC1CB186C6 /* libPods-ProjectTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProjectTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65077DBE6EF1EDF16BEE370 /* Pods-ProjectTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProjectTemplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProjectTemplate/Pods-ProjectTemplate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -586,6 +589,8 @@
 				69E9EDA120AE70EF004CC4E5 /* UIButton+GLImagePosition.m */,
 				69E9EDA320AE71EF004CC4E5 /* UIButton+GLCountDown.h */,
 				69E9EDA420AE71EF004CC4E5 /* UIButton+GLCountDown.m */,
+				69F8AD2A213D078B0067DD31 /* UIButton+Touch.h */,
+				69F8AD2B213D078B0067DD31 /* UIButton+Touch.m */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -985,6 +990,7 @@
 				69E9EDE320AE7971004CC4E5 /* NSString+JKSize.m in Sources */,
 				69E9EDC720AE7471004CC4E5 /* UIDevice+GLHardware.m in Sources */,
 				69E9EDB020AE72FF004CC4E5 /* UIImageView+JKAddition.m in Sources */,
+				69F8AD2C213D078B0067DD31 /* UIButton+Touch.m in Sources */,
 				69E9ED9820AE6F4E004CC4E5 /* UITextView+PlaceHolder.m in Sources */,
 				69E9EDD620AE7830004CC4E5 /* UINavigationController+GLStackManager.m in Sources */,
 				69C262831FE90C1B0077A2EE /* UIViewController+AlertViewAndActionSheet.m in Sources */,

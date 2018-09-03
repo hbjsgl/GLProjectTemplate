@@ -38,5 +38,4 @@
 /**图片文字上下居中*/
 - (void)setButtonContentCenter;
 
-
 @end
