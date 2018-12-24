@@ -33,7 +33,7 @@
     self.window.backgroundColor = KWhiteColor;
     [self.window makeKeyAndVisible];
     [[UIButton appearance] setExclusiveTouch:YES];
-    [UIActivityIndicatorView appearanceWhenContainedIn:[MBProgressHUD class], nil].color = KWhiteColor;
+    [UIActivityIndicatorView appearanceWhenContainedInInstancesOfClasses:@[[MBProgressHUD class]]].color = KWhiteColor;
     if (@available(iOS 11.0, *)){
         [[UIScrollView appearance] setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
     }

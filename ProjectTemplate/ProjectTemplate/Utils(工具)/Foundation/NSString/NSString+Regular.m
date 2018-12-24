@@ -10,11 +10,11 @@
 
 @implementation NSString (Regular)
 
-- (BOOL)isMobileNumber:(NSString *)phoneNumber {
+- (BOOL)isMobileNumber {
     
     NSString *MOBILE = @"^(13[0-9]|14[579]|15[0-3,5-9]|16[6]|17[0135678]|18[0-9]|19[89])\\d{8}$";
     NSPredicate *regextestmobile = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", MOBILE];
-    return [regextestmobile evaluateWithObject:phoneNumber];
+    return [regextestmobile evaluateWithObject:self];
 }
 
 //验证纯数字
@@ -28,8 +28,8 @@
  校验身份证号码
  */
 
-- (BOOL)validateIDCardNumber:(NSString *)value {
-    value = [value stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+- (BOOL)validateIDCardNumber {
+    NSString *value = [self stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     
     long length =0;
     if (!value) {
@@ -129,11 +129,11 @@
 }
 
 //身份证号码粗验证
-- (BOOL)judgeIdentityStringValid:(NSString *)identityString {
+- (BOOL)judgeIdentityStringValid {
     
     NSString *pattern = @"^(\\d{14}|\\d{17})(\\d|[xX])$";
     NSPredicate *pred = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", pattern];
-    BOOL isMatch = [pred evaluateWithObject:identityString];
+    BOOL isMatch = [pred evaluateWithObject:self];
     
     return isMatch;
 }

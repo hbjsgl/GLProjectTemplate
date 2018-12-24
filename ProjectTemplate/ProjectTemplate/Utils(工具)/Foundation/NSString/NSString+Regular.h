@@ -11,7 +11,7 @@
 @interface NSString (Regular)
 
 ///手机号正则判断
-- (BOOL)isMobileNumber:(NSString *)phoneNumber;
+- (BOOL)isMobileNumber;
 
 ///验证纯数字
 - (BOOL)checkJustNumber;
@@ -19,11 +19,11 @@
 /*
  校验身份证号码
  */
-- (BOOL)validateIDCardNumber:(NSString *)value;
+- (BOOL)validateIDCardNumber;
 
 /*
  身份证粗验证
  */
-- (BOOL)judgeIdentityStringValid:(NSString *)identityString;
+- (BOOL)judgeIdentityStringValid;
 
 @end
