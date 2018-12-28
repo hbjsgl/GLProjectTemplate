@@ -15,6 +15,7 @@
 		6943E9291FE21B61007D4825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E9281FE21B61007D4825 /* main.m */; };
 		6943E9331FE21B61007D4825 /* ProjectTemplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E9321FE21B61007D4825 /* ProjectTemplateTests.m */; };
 		6943E93E1FE21B61007D4825 /* ProjectTemplateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6943E93D1FE21B61007D4825 /* ProjectTemplateUITests.m */; };
+		69631B5D21D0C38A006A3283 /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69631B5C21D0C389006A3283 /* UserDefaultsManager.m */; };
 		697065032117F31200913C85 /* SandBoxHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 697065022117F31200913C85 /* SandBoxHelper.m */; };
 		69706507211834F900913C85 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706506211834F900913C85 /* NSObject+Swizzling.m */; };
 		6970650A211836D000913C85 /* NSObject+ImpChangeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 69706509211836D000913C85 /* NSObject+ImpChangeTool.m */; };
@@ -103,6 +104,8 @@
 		6943E9391FE21B61007D4825 /* ProjectTemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectTemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6943E93D1FE21B61007D4825 /* ProjectTemplateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectTemplateUITests.m; sourceTree = "<group>"; };
 		6943E93F1FE21B61007D4825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69631B5B21D0C389006A3283 /* UserDefaultsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
+		69631B5C21D0C389006A3283 /* UserDefaultsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
 		697065012117F31200913C85 /* SandBoxHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandBoxHelper.h; sourceTree = "<group>"; };
 		697065022117F31200913C85 /* SandBoxHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandBoxHelper.m; sourceTree = "<group>"; };
 		69706505211834F900913C85 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
@@ -273,6 +276,7 @@
 		6943E9181FE21B60007D4825 /* ProjectTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				69631B5A21D0C364006A3283 /* Manager */,
 				69C2626B1FE906390077A2EE /* AppDelegate(入口) */,
 				69C262641FE906070077A2EE /* Modules(页面) */,
 				69C2625E1FE9042E0077A2EE /* Utils(工具) */,
@@ -305,6 +309,15 @@
 				6943E93F1FE21B61007D4825 /* Info.plist */,
 			);
 			path = ProjectTemplateUITests;
+			sourceTree = "<group>";
+		};
+		69631B5A21D0C364006A3283 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				69631B5B21D0C389006A3283 /* UserDefaultsManager.h */,
+				69631B5C21D0C389006A3283 /* UserDefaultsManager.m */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 		697064FE2117EF0A00913C85 /* NSArray */ = {
@@ -976,6 +989,7 @@
 				69E9EDE620AE7980004CC4E5 /* NSString+JKRemoveEmoji.m in Sources */,
 				69C2624F1FE8F58F0077A2EE /* BaseTopLeftLabel.m in Sources */,
 				69EA5D03205A7806004CFB64 /* GLTabBar.m in Sources */,
+				69631B5D21D0C38A006A3283 /* UserDefaultsManager.m in Sources */,
 				69E9EDBD20AE73D7004CC4E5 /* UIColor+GLRandom.m in Sources */,
 				69C262631FE904500077A2EE /* XYTransition.m in Sources */,
 				69E9EDA920AE727D004CC4E5 /* UITextField+JKHistory.m in Sources */,
