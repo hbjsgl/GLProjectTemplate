@@ -18,6 +18,8 @@
 
 #define KSpace10 10.0f
 
+#define KSpace16 16.0f
+
 #define KSpace15 15.0f
 
 #define KSpace20 20.0f
@@ -43,6 +45,8 @@
 #define KNavBgColor  [UIColor colorWithHexString:@"c9a263"]
 //线条边框灰色
 #define KLineColor  [UIColor colorWithHexString:@"eeeeee"]
+//app主体颜色
+#define KMainColor  [UIColor colorWithHexString:@"eeeeee"]
 
 //颜色
 #define KClearColor [UIColor clearColor]
