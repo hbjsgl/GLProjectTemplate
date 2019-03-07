@@ -1,0 +1,31 @@
+//
+//  PrefixHeader.pch
+//  GLProjectTemplate
+//
+//  Created by 郭磊 on 2019/3/7.
+//  Copyright © 2019 郭磊. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+
+//第三方
+#import "YYModel.h"
+#import "YYCategories.h"
+#import "Masonry.h"
+#import "QDUIHelper.h"
+#import "QDThemeManager.h"
+//配置表：请在项目左侧的 Project navigator 里找到 QMUIKit，右键点击选择 Show in Finder，然后在打开的窗口里找到目录 QMUIConfigurationTemplate，将其中的两个文件拖到你项目 Xcode 的 Project navigator 里，注意选择 Copy items if needed。
+#import <QMUIKit/QMUIKit.h>
+#import "UIImageView+WebCache.h"
+#import "QDUIHelper.h"
+#import "QDThemeManager.h"
+
+#endif /* PrefixHeader_pch */
